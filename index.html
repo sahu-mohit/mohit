@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohit Sahu | Full Stack Java Developer</title>
+  <meta
+    name="description"
+    content="Portfolio of Mohit Sahu, a Full Stack Java Developer with nearly 4 years of experience building scalable applications."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+  <div class="bg-orb orb-one"></div>
+  <div class="bg-orb orb-two"></div>
+  <div class="bg-grid"></div>
+
+  <nav class="navbar navbar-expand-lg fixed-top glass-nav" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand brand-mark" href="#home">Mohit Sahu</a>
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-2 mt-3 mt-lg-0">
+            <button class="theme-toggle btn btn-sm" id="themeToggle" type="button" aria-label="Toggle theme">
+              <i class="bi bi-moon-stars-fill theme-icon-dark"></i>
+              <i class="bi bi-sun-fill theme-icon-light"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero-section section-spacing" id="home">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7">
+            <div class="glass-card hero-card reveal">
+              <span class="eyebrow">Full Stack Java Developer</span>
+              <h1 class="hero-title">Mohit Sahu</h1>
+              <p class="hero-subtitle">
+                <span id="typedText" class="typed-text"></span>
+                <span class="typing-cursor">|</span>
+              </p>
+              <p class="hero-description">
+                Nearly 4 years of experience building scalable applications across backend systems, business-critical portals,
+                dynamic user interfaces, and cloud-enabled deployments.
+              </p>
+              <div class="d-flex flex-wrap gap-3 mt-4">
+                <a href="#projects" class="btn btn-primary btn-glow ripple-btn">View Projects</a>
+                <a href="#contact" class="btn btn-outline-light btn-soft ripple-btn">Contact Me</a>
+                <a href="https://s3-public-attachments.s3.ap-south-1.amazonaws.com/personal/resume.pdf" class="btn btn-outline-light btn-soft ripple-btn" download>Download Resume</a>
+              </div>
+              <div class="hero-stats row g-3 mt-4">
+                <div class="col-sm-4">
+                  <div class="stat-pill">
+                    <strong>4 Years</strong>
+                    <span>Hands-on delivery</span>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="stat-pill">
+                    <strong>Java + Spring</strong>
+                    <span>Backend core stack</span>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="stat-pill">
+                    <strong>AWS Ready</strong>
+                    <span>Cloud deployment skills</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="profile-shell reveal">
+              <div class="glass-card profile-card">
+                <div class="profile-badge">Available for Full Stack Roles</div>
+                <!--<div class="profile-photo-wrap">
+                  <img
+                    src="IMG20241207224515.jpg"
+                    alt="Mohit Sahu profile photo"
+                    class="profile-photo"
+                  >
+                </div>-->
+                <h2>Scalable, maintainable, product-focused engineering</h2>
+                <p>
+                  Building robust Java applications, simplifying workflows, and shipping responsive interfaces that support
+                  real business operations.
+                </p>
+                <div class="quick-list">
+                  <div><i class="bi bi-check2-circle"></i> Spring Boot architecture</div>
+                  <div><i class="bi bi-check2-circle"></i> REST API integrations</div>
+                  <div><i class="bi bi-check2-circle"></i> jQuery and JSP frontends</div>
+                  <div><i class="bi bi-check2-circle"></i> MySQL and AWS deployment</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-spacing" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">About Me</span>
+          <h2>Full stack development grounded in practical delivery</h2>
+          <p>
+            Mohit Sahu is a Full Stack Java Developer with nearly four years of experience designing and improving business
+            applications. His work spans backend services, frontend workflows, reporting automation, and integrations that help
+            teams operate at scale.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="glass-card content-card reveal">
+              <h3>Backend-focused engineering</h3>
+              <p>
+                Strong experience with Java, Spring Boot, Hibernate, and REST APIs to build maintainable systems, migrate legacy
+                modules, and support high-usage internal and client-facing platforms.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="glass-card content-card reveal">
+              <h3>Frontend and workflow expertise</h3>
+              <p>
+                Comfortable delivering responsive UI layers using JavaScript, JSP, jQuery, and Bootstrap, while aligning UX,
+                data flow, and business logic for smoother operational experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-spacing" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Skills</span>
+          <h2>Core technologies across the stack</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-3">
+            <div class="glass-card skill-card reveal">
+              <h3>Backend</h3>
+              <div class="badge-cloud">
+                <span>Java</span>
+                <span>Spring Boot</span>
+                <span>Hibernate</span>
+                <span>REST APIs</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="glass-card skill-card reveal">
+              <h3>Frontend</h3>
+              <div class="badge-cloud">
+                <span>JavaScript</span>
+                <span>JSP</span>
+                <span>jQuery</span>
+                <span>Bootstrap</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="glass-card skill-card reveal">
+              <h3>Database</h3>
+              <div class="badge-cloud">
+                <span>MySQL</span>
+                <span>Query Optimization</span>
+                <span>Schema Design</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="glass-card skill-card reveal">
+              <h3>Cloud</h3>
+              <div class="badge-cloud">
+                <span>AWS EC2</span>
+                <span>AWS S3</span>
+                <span>AWS IAM</span>
+                <span>Deployment</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-spacing" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Experience</span>
+          <h2>Professional journey</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <span class="timeline-year">2023 - Present</span>
+              <h3>Entire Techno Solutions</h3>
+              <p>
+                Working on scalable enterprise and education-focused applications, handling backend development, UI enhancements,
+                feature delivery, and operational reporting improvements.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <span class="timeline-year">2022 - 2023</span>
+              <h3>Edunext Technologies</h3>
+              <p>
+                Contributed to school and ERP product modules with API integrations, dynamic UI behavior, and system enhancements
+                supporting product usability and scale.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <span class="timeline-year">2021 - 2022</span>
+              <h3>S O Infotech</h3>
+              <p>
+                Built foundational development experience through Java-based application work, debugging, requirement handling,
+                and delivery of practical client features.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-spacing" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Projects</span>
+          <h2>Systems built for real operational use</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-7">
+            <div class="glass-card project-card featured-project reveal">
+              <div class="project-header">
+                <span class="project-label">Featured Project</span>
+                <a href="#" class="btn btn-sm btn-outline-light btn-soft">GitHub</a>
+              </div>
+              <h3>School Management System (SMS & LMS)</h3>
+              <p>
+                A modular platform supporting education workflows with integrated administrative, academic, and operational tools.
+                Designed to scale across clients with customizable white-label features and automated reporting.
+              </p>
+              <div class="project-points">
+                <span>Teacher Hiring</span>
+                <span>Student Registration</span>
+                <span>Agent Management</span>
+                <span>Payment System</span>
+                <span>Feedback SaaS</span>
+                <span>White Label Support</span>
+                <span>Cron-based Reports</span>
+              </div>
+              <div class="tech-stack">
+                <span>Java</span>
+                <span>Spring Boot</span>
+                <span>Hibernate</span>
+                <span>MySQL</span>
+                <span>jQuery</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="glass-card project-card reveal">
+              <div class="project-header">
+                <span class="project-label">Enterprise Project</span>
+                <a href="#" class="btn btn-sm btn-outline-light btn-soft">GitHub</a>
+              </div>
+              <h3>ERP System</h3>
+              <p>
+                Improved and modernized ERP modules by migrating architecture to Spring Boot, integrating external APIs, and
+                building more dynamic interface behavior for smoother business workflows.
+              </p>
+              <div class="tech-stack">
+                <span>Spring Boot</span>
+                <span>Java</span>
+                <span>REST APIs</span>
+                <span>Dynamic UI</span>
+                <span>Bootstrap</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-spacing" id="achievements">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Achievements</span>
+          <h2>Recognition that reflects delivery impact</h2>
+        </div>
+        <div class="glass-card achievement-card reveal">
+          <div class="achievement-icon">
+            <i class="bi bi-award-fill"></i>
+          </div>
+          <div>
+            <h3>Letter of Appreciation</h3>
+            <p>
+              Recognized for contribution, ownership, and consistent delivery on business-critical projects. Highlighting this as
+              a meaningful indicator of professional reliability and performance.
+            </p>
+          </div>
+        </div>
+        <div class="glass-card achievement-proof-card reveal mt-4">
+          <div class="achievement-proof-header">
+            <div>
+              <span class="section-tag">Appreciation Letter</span>
+              <h3 class="mt-3 mb-2">Recognition Snapshot</h3>
+              <p class="mb-0">
+                The original appreciation letter can be displayed directly here as proof of recognition and professional impact.
+              </p>
+            </div>
+            <a
+              href="https://s3-public-attachments.s3.ap-south-1.amazonaws.com/personal/IMG_20260329_004721.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-sm btn-outline-light btn-soft"
+            >
+              Open Full Image
+            </a>
+          </div>
+          <div class="achievement-image-wrap">
+            <img
+              src="https://s3-public-attachments.s3.ap-south-1.amazonaws.com/personal/IMG_20260329_004721.jpg"
+              alt="Mohit Sahu appreciation letter"
+              class="achievement-image"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-spacing" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Contact</span>
+          <h2>Let’s build something reliable and scalable</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-5">
+            <div class="glass-card contact-info reveal">
+              <h3>Contact Details</h3>
+              <div class="contact-line">
+                <i class="bi bi-envelope-fill"></i>
+                <a href="mailto:mohit.sahu2017@gmail.com">mohit.sahu2017@gmail.com</a>
+              </div>
+              <div class="contact-line">
+                <i class="bi bi-telephone-fill"></i>
+                <a href="tel:+918630327282">8630327282</a>
+              </div>
+              <p class="contact-copy">
+                Open to full stack opportunities focused on Java, Spring Boot, backend systems, and scalable product development.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="glass-card contact-form-card reveal">
+              <form id="contactForm">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your name" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="your@email.com" required>
+                  </div>
+                  <div class="col-12">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Write your message" required></textarea>
+                  </div>
+                  <div class="col-12 d-flex flex-wrap justify-content-between align-items-center gap-3">
+                    <button type="submit" class="btn btn-primary btn-glow ripple-btn">Send Message</button>
+                    <small id="formStatus" class="form-status">This form opens your default email app and sends to mohit.sahu2017@gmail.com.</small>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-section">
+    <div class="container">
+      <div class="glass-card footer-card d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <p class="mb-0">© 2026 Mohit Sahu. Built with HTML, CSS, JavaScript, Bootstrap, and jQuery.</p>
+        <div class="social-links">
+          <a href="https://github.com/sahu-mohit" aria-label="GitHub"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/mohit-sahu-22b4b31a6?utm_source=share_via&utm_content=profile&utm_medium=member_android" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
