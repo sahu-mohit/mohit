@@ -57,7 +57,7 @@ $(function () {
       if (viewportBottom > elementTop) {
         window.setTimeout(function () {
           $item.addClass("visible");
-        }, index * 70);
+        }, index * 35);
       }
     });
   }
