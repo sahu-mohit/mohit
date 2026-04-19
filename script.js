@@ -127,23 +127,23 @@ $(function () {
     });
   }
 
-  function handleContactForm() {
-    $("#contactForm").on("submit", function (event) {
-      event.preventDefault();
-      const name = $("#name").val().trim();
-      const email = $("#email").val().trim();
-      const message = $("#message").val().trim();
-      const subject = encodeURIComponent("Portfolio Contact from " + name);
-      const body = encodeURIComponent(
-        "Name: " + name + "\n" +
-        "Email: " + email + "\n\n" +
-        "Message:\n" + message
-      );
+  // function handleContactForm() {
+  //   $("#contactForm").on("submit", function (event) {
+  //     event.preventDefault();
+  //     const name = $("#name").val().trim();
+  //     const email = $("#email").val().trim();
+  //     const message = $("#message").val().trim();
+  //     const subject = encodeURIComponent("Portfolio Contact from " + name);
+  //     const body = encodeURIComponent(
+  //       "Name: " + name + "\n" +
+  //       "Email: " + email + "\n\n" +
+  //       "Message:\n" + message
+  //     );
 
-      $("#formStatus").text("Opening your email app...");
-      window.location.href = "mailto:mohit.sahu2017@gmail.com?subject=" + subject + "&body=" + body;
-    });
-  }
+  //     $("#formStatus").text("Opening your email app...");
+  //     window.location.href = "mailto:mohit.sahu2017@gmail.com?subject=" + subject + "&body=" + body;
+  //   });
+  // }
 
   if (storedTheme) {
     applyTheme(storedTheme);
@@ -157,7 +157,7 @@ $(function () {
   }).on("click", addRipple);
 
   smoothNavClick();
-  handleContactForm();
+  // handleContactForm();
   updateNavbarState();
   revealOnScroll();
   updateActiveNav();
