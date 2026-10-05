@@ -812,3 +812,40 @@ body[data-theme="light"] .theme-icon-light {
     opacity: 1;
   }
 }
+
+/* Company name + year ek hi line me */
+.timeline-card .timeline-head {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: baseline !important;
+  flex-wrap: nowrap !important;
+  gap: 12px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.timeline-card .timeline-head h3 {
+  margin: 0 !important;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.timeline-card .timeline-head .timeline-year {
+  display: inline-block !important;
+  position: static !important;
+  margin: 0 0 0 auto !important;
+  flex: 0 0 auto;
+  white-space: nowrap;
+  text-align: right;
+}
+
+/* Company name: white + underline */
+.timeline-card .timeline-head h3 a,
+.timeline-card .timeline-head h3 a:link,
+.timeline-card .timeline-head h3 a:visited,
+.timeline-card .timeline-head h3 a:hover,
+.timeline-card .timeline-head h3 a:active {
+  color: #fff !important;
+  text-decoration: underline !important;
+}
